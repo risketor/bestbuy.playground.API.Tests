@@ -1,0 +1,101 @@
+BestBuy api-playground test suite.
+
+There are 6 endpoints to test: products, categories, services, stores, version and healthcheck. Version and healthcheck endpoints are simple, just a GET to return the information/version. The others are quite similar, same structure (GET, POST, DELETE{ID}, GET{ID}, PATCH{ID}), except Categories that ID must be unique, therefore a '400 Validation error - id must be unique' will be returned if ID is already existing. 
+
+See below all the tests implemented in the automation test suite: 
+
+ 
+## Tests for Products endpoint:
+1. GET /products - Returns all products that match the given filter criteria. If no filters are included, defaults to returning a paginated list of all products.
+ - Valid request: Expected response: 200 OK
+ 
+2. POST /products - Creates a new product
+ - Valid request: Expected response: 201 Created
+ - Missing or invalid (empty) field: Expected response: 400 Invalid Parameters
+
+3. DELETE /products/{id} - Deletes a single product based on the ID supplied
+ - Valid request: Expected response: 200 OK
+ - Non-existing ID: Expected response: 404 No record found for id
+
+4. GET /products/{id} - Returns a product based on an ID
+ - Valid request: Expected response: 200 OK
+ - Non-existing ID: Expected response: 404 No record found for id
+
+5. PATCH /products/{id} - Updates a product based on an ID
+ - Valid request: Expected response: 200 OK
+ - Non-existing ID: Expected response: 404 No record found for id
+ 
+ 
+## Tests for Categories endpoint:
+1. GET /categories - Returns all categories that match the given filter criteria. If no filters are included, defaults to returning a paginated list of all categories.
+ - Valid request: Expected response: 200 OK
+ 
+2. POST /categories - Creates a new category
+ - Valid request: Expected response: 201 Created
+ - Missing or invalid (empty) field: Expected response: 400 Invalid Parameters
+ - ID must be unique: Expected response: 400 Validation error
+
+3. DELETE /categories/{id} - Deletes a single category based on the ID supplied
+ - Valid request: Expected response: 200 OK
+ - Non-existing ID: Expected response: 404 No record found for id	
+
+4. GET /categories/{id} - Returns a category based on an ID
+ - Valid request: Expected response: 200 OK
+ - Non-existing ID: Expected response: 404 No record found for id
+
+5. PATCH /categories/{id} - Updates a category based on an ID
+ - Valid request: Expected response: 200 OK
+ - Non-existing ID: Expected response: 404 No record found for id
+ - ID must be unique: Expected response: 400 Validation error - id must be unique
+
+ 
+## Tests for Services endpoint:
+1. GET /services - Returns all services that match the given filter criteria. If no filters are included, defaults to returning a paginated list of all services.
+ - Valid request: Expected response: 200 OK
+ 
+2. POST /services - Creates a new service
+ - Valid request: Expected response: 201 Created
+ - Missing or invalid (empty) field: Expected response: 400 Invalid Parameters
+
+3. DELETE /services/{id} - Deletes a single service based on the ID supplied
+ - Valid request: Expected response: 200 OK
+ - Non-existing ID: Expected response: 404 No record found for id	
+
+4. GET /services/{id} - Returns a service based on an ID
+ - Valid request: Expected response: 200 OK
+ - Non-existing ID: Expected response: 404 No record found for id
+
+5. PATCH /services/{id} - Updates a service based on an ID
+ - Valid request: Expected response: 200 OK
+ - Non-existing ID: Expected response: 404 No record found for id
+ 
+ 
+## Tests for Stores endpoint:
+1. GET /stores - Returns all stores that match the given filter criteria. If no filters are included, defaults to returning a paginated list of all stores.
+ - Valid request: Expected response: 200 OK
+ 
+2. POST /stores - Creates a new store
+ - Valid request: Expected response: 201 Created
+ - Missing or invalid (empty) field: Expected response: 400 Invalid Parameters
+
+3. DELETE /stores/{id} - Deletes a single store based on the ID supplied
+ - Valid request: Expected response: 200 OK
+ - Non-existing ID: Expected response: 404 No record found for id	
+
+4. GET /stores/{id} - Returns a store based on an ID
+ - Valid request: Expected response: 200 OK
+ - Non-existing ID: Expected response: 404 No record found for id
+
+5. PATCH /stores/{id} - Updates a store based on an ID
+ - Valid request: Expected response: 200 OK
+ - Non-existing ID: Expected response: 404 No record found for id
+
+ 
+## Tests for Version endpoint:
+1. GET /version - Returns the current version of the API Playground being run
+ - Valid request: Expected response: 200 OK 
+
+ 
+## Tests for Healthcheck endpoint:
+1. GET /healthcheck - Returns healthcheck information about the system
+ - Valid request: Expected response: 200 OK
