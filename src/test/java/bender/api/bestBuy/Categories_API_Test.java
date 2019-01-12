@@ -11,7 +11,7 @@ import static com.jayway.restassured.RestAssured.given;
 import static org.hamcrest.Matchers.equalTo;
 
 /**
- * Created by A.Bartolome 11/01/2018
+ * Created by A.Bartolome 11/01/2019
  *
  * CATEGORIES ENDPOINT
  *

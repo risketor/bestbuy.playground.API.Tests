@@ -14,10 +14,11 @@
     <session id="-850640304">
       <usages-collector id="statistics.lifecycle.project">
         <counts>
-          <entry key="project.closed" value="1" />
+          <entry key="project.closed" value="2" />
+          <entry key="project.open.time.2" value="1" />
           <entry key="project.open.time.4" value="1" />
           <entry key="project.open.time.7" value="1" />
-          <entry key="project.opened" value="2" />
+          <entry key="project.opened" value="3" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.open">
@@ -39,13 +40,13 @@
       <usages-collector id="statistics.file.extensions.edit">
         <counts>
           <entry key="dummy" value="5" />
-          <entry key="java" value="256" />
+          <entry key="java" value="257" />
           <entry key="xml" value="21" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
-          <entry key="JAVA" value="256" />
+          <entry key="JAVA" value="257" />
           <entry key="PLAIN_TEXT" value="5" />
           <entry key="XML" value="21" />
         </counts>
@@ -57,8 +58,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/test/java/bender/api/bestBuy/Stores_API_Test.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="272">
-              <caret line="45" column="47" lean-forward="true" selection-start-line="45" selection-start-column="47" selection-end-line="45" selection-end-column="47" />
+            <state relative-caret-position="765">
+              <caret line="45" column="47" selection-start-line="45" selection-start-column="47" selection-end-line="45" selection-end-column="47" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -66,11 +67,11 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/.gitignore">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="17">
-              <caret line="1" column="7" lean-forward="true" selection-start-line="1" selection-start-column="7" selection-end-line="1" selection-end-column="7" />
+              <caret line="1" column="7" selection-start-line="1" selection-start-column="7" selection-end-line="1" selection-end-column="7" />
             </state>
           </provider>
         </entry>
@@ -96,11 +97,11 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="false">
+      <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/test/java/bender/api/bestBuy/Products_API_Test.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="4607">
-              <caret line="271" column="102" selection-start-line="271" selection-start-column="102" selection-end-line="271" selection-end-column="102" />
+            <state relative-caret-position="272">
+              <caret line="16" column="32" lean-forward="true" selection-start-line="16" selection-start-column="32" selection-end-line="16" selection-end-column="32" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -156,7 +157,11 @@
     <findStrings>
       <find>random</find>
       <find>uniqu</find>
+      <find>2018</find>
     </findStrings>
+    <replaceStrings>
+      <replace>2019</replace>
+    </replaceStrings>
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
@@ -178,12 +183,12 @@
         <option value="$PROJECT_DIR$/src/test/java/bender/api/bestBuy/Categories_API_test.java" />
         <option value="$PROJECT_DIR$/pom.xml" />
         <option value="$PROJECT_DIR$/src/test/java/bender/api/bestBuy/Categories_API_Test.java" />
-        <option value="$PROJECT_DIR$/src/test/java/bender/api/bestBuy/Products_API_Test.java" />
         <option value="$PROJECT_DIR$/src/test/java/bender/api/bestBuy/Services_API_Test.java" />
         <option value="$PROJECT_DIR$/src/test/java/bender/api/bestBuy/Utilities_API_Test.java" />
         <option value="$PROJECT_DIR$/src/test/java/bender/api/bestBuy/Stores_API_Test.java" />
         <option value="$PROJECT_DIR$/src/test/java/bender/testData/TestData.java" />
         <option value="$PROJECT_DIR$/.gitignore" />
+        <option value="$PROJECT_DIR$/src/test/java/bender/api/bestBuy/Products_API_Test.java" />
       </list>
     </option>
   </component>
@@ -212,7 +217,7 @@
   </component>
   <component name="ProjectFrameBounds" extendedState="6">
     <option name="x" value="-25" />
-    <option name="width" value="1600" />
+    <option name="width" value="1668" />
     <option name="height" value="1050" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
@@ -221,6 +226,7 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -232,6 +238,12 @@
               <item name="bender-api-playground" type="b2602c69:ProjectViewProjectNode" />
               <item name="bender.api.reassured.bestbuy.playground" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="bender-api-playground" type="b2602c69:ProjectViewProjectNode" />
+              <item name="bender.api.reassured.bestbuy.playground" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="bender-api-playground" type="b2602c69:ProjectViewProjectNode" />
@@ -282,12 +294,12 @@
         </subPane>
       </pane>
       <pane id="PackagesPane" />
-      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
     <property name="android.sdk.path" value="$USER_HOME$/AppData/Local/Android/Sdk" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1547307349478" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1547314783430" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../../1_INTERVIEW_TESTS/flight_Alpha_test" />
     <property name="project.structure.last.edited" value="Modules" />
     <property name="project.structure.proportion" value="0.0" />
     <property name="project.structure.side.proportion" value="0.0" />
@@ -465,12 +477,6 @@
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="Categories_API_Test_POST_200 - 2019.01.12 at 14h 09m 21s.xml">
-      <configuration name="Categories_API_Test.POST_200" configurationId="TestNG" />
-    </history-entry>
-    <history-entry file="Categories_API_Test_POST_400 - 2019.01.12 at 14h 09m 27s.xml">
-      <configuration name="Categories_API_Test.POST_400" configurationId="TestNG" />
-    </history-entry>
     <history-entry file="Categories_API_Test_POST_200 - 2019.01.12 at 14h 09m 42s.xml">
       <configuration name="Categories_API_Test.POST_200" configurationId="TestNG" />
     </history-entry>
@@ -495,12 +501,18 @@
     <history-entry file="bender_api_bestBuy - 2019.01.12 at 14h 57m 11s.xml">
       <configuration name="bender.api.bestBuy" configurationId="TestNG" />
     </history-entry>
+    <history-entry file="Services_API_Test - 2019.01.12 at 16h 35m 22s.xml">
+      <configuration name="Services_API_Test" configurationId="TestNG" />
+    </history-entry>
+    <history-entry file="Products_API_Test - 2019.01.12 at 16h 35m 55s.xml">
+      <configuration name="Products_API_Test" configurationId="TestNG" />
+    </history-entry>
   </component>
   <component name="ToolWindowManager">
     <frame x="-7" y="-7" width="1550" height="838" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.21946308" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.22281879" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Image Layers" order="2" />
       <window_info id="Designer" order="3" />
@@ -509,7 +521,7 @@
       <window_info id="Favorites" order="6" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.32991204" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.32991204" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.398827" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -543,10 +555,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="214">
           <caret line="74" column="36" selection-start-line="74" selection-start-column="36" selection-end-line="74" selection-end-column="36" />
-          <folding>
-            <element signature="e#2350#2351#0" expanded="true" />
-            <element signature="e#2418#2419#0" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -564,6 +572,17 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/bender api playground.iml" />
+    <entry file="file://$PROJECT_DIR$/src/test/java/bender/api/bestBuy/Stores_API_Test.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="765">
+          <caret line="45" column="47" selection-start-line="45" selection-start-column="47" selection-end-line="45" selection-end-column="47" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/test/java/bender/api/bestBuy/Utilities_API_Test.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="119">
@@ -578,16 +597,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="102">
           <caret line="6" column="3" selection-start-line="6" selection-start-column="3" selection-end-line="6" selection-end-column="3" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/bender/api/bestBuy/Products_API_Test.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="4607">
-          <caret line="271" column="102" selection-start-line="271" selection-start-column="102" selection-end-line="271" selection-end-column="102" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -625,23 +634,20 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/bender/api/bestBuy/Stores_API_Test.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="272">
-          <caret line="45" column="47" lean-forward="true" selection-start-line="45" selection-start-column="47" selection-end-line="45" selection-end-column="47" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/bender api playground.iml">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
     <entry file="file://$PROJECT_DIR$/.gitignore">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="17">
-          <caret line="1" column="7" lean-forward="true" selection-start-line="1" selection-start-column="7" selection-end-line="1" selection-end-column="7" />
+          <caret line="1" column="7" selection-start-line="1" selection-start-column="7" selection-end-line="1" selection-end-column="7" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/bender/api/bestBuy/Products_API_Test.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="272">
+          <caret line="16" column="32" lean-forward="true" selection-start-line="16" selection-start-column="32" selection-end-line="16" selection-end-column="32" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
