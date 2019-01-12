@@ -1,4 +1,4 @@
-# bender.api.reassured.bestbuy.playground
+# Bender - REST Assured Test Suite for Best Buy API Playground 
 =======
 
 Test suite covering the RESTful API in Best Buy API playground. 
