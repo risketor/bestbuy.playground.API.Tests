@@ -1,10 +1,2 @@
 
-target/surefire-reports/Command line suite/Command line test.html
-target/surefire-reports/Command line suite/Command line test.xml
-target/surefire-reports/emailable-report.html
-target/surefire-reports/index.html
-target/surefire-reports/junitreports/TEST-bender.api.bestBuy.Categories_API_Test.xml
-target/surefire-reports/junitreports/TEST-bender.api.bestBuy.Products_API_Test.xml
-target/surefire-reports/junitreports/TEST-bender.api.bestBuy.Services_API_Test.xml
-target/surefire-reports/junitreports/TEST-bender.api.bestBuy.Stores_API_Test.xml
-target/surefire-reports/junitreports/TEST-bender.api.bestBuy.Utilities_API_Test.xml
+target/
