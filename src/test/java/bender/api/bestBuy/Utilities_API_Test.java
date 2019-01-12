@@ -3,16 +3,14 @@ package bender.api.bestBuy;
 import bender.testData.TestData;
 import com.jayway.restassured.RestAssured;
 import org.testng.annotations.Test;
-
 import static com.jayway.restassured.RestAssured.given;
 
 /**
  * Created by A.Bartolome 11/01/2018
  * <p>
- * UTILITIES ENDPOINTS
+ * UTILITIES ENDPOINT
  */
 public class Utilities_API_Test {
-
 
     private String endpoint_version = TestData.VERSION_ENDPOINT;
     private String endpoint_healthcheck = TestData.HEALTHCHECK_ENDPOINT;

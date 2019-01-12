@@ -6,14 +6,13 @@ import com.jayway.restassured.path.json.JsonPath;
 import org.testng.annotations.Test;
 import javax.json.Json;
 import javax.json.JsonObject;
-
 import static com.jayway.restassured.RestAssured.given;
 import static org.hamcrest.Matchers.equalTo;
 
 /**
  * Created by A.Bartolome 11/01/2018
  *
- * PRODUCTS ENDPOINTS
+ * PRODUCTS ENDPOINT
  */
 public class Products_API_Test {
 
@@ -95,7 +94,6 @@ public class Products_API_Test {
                 .when()
                 .post(endpoint).jsonPath();
     }
-
 
     /**
      * DELETE /products/{id} - 200
@@ -197,7 +195,6 @@ public class Products_API_Test {
                 .get(endpoint + TestData.NON_EXISTING_ID);
     }
 
-
     /**
      * PATCH /products/{id} - 200
      * Updates a product based on an ID
@@ -249,7 +246,6 @@ public class Products_API_Test {
                 .patch(endpoint + response.get("id"));
     }
 
-
     /**
      * PATCH /products/{id} - 404
      * non-existing ID
@@ -274,7 +270,6 @@ public class Products_API_Test {
                 .statusCode(404)
                 .body("name", equalTo("NotFound"))
                 .body("message", equalTo("No record found for id '" + TestData.NON_EXISTING_ID + "'"))
-
                 .log().all().request().and().response()
 
                 .when()

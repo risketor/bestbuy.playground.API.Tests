@@ -4,21 +4,18 @@ import bender.testData.TestData;
 import com.jayway.restassured.RestAssured;
 import com.jayway.restassured.path.json.JsonPath;
 import org.testng.annotations.Test;
-
 import javax.json.Json;
 import javax.json.JsonObject;
-
 import static com.jayway.restassured.RestAssured.given;
 import static org.hamcrest.Matchers.equalTo;
 
 /**
  * Created by A.Bartolome 11/01/2018
  *
- * STORES ENDPOINTS
+ * STORES ENDPOINT
  *
  */
 public class Stores_API_Test {
-
 
     private String endpoint = TestData.STORES_ENDPOINT;
 
@@ -176,7 +173,6 @@ public class Stores_API_Test {
                 .delete(endpoint + TestData.NON_EXISTING_ID);
     }
 
-
     /**
      * GET /stores/{id} - 200
      * Returns a store based on an ID,
@@ -216,7 +212,6 @@ public class Stores_API_Test {
                 .when()
                 .get(endpoint + TestData.NON_EXISTING_ID);
     }
-
 
     /**
      * PATCH /stores/{id} - 200
@@ -267,7 +262,6 @@ public class Stores_API_Test {
                 .add("services", Json.createObjectBuilder())
                 .build();
 
-
         // Update the store - model to different value
         given()
                 .contentType("application/json")
@@ -280,7 +274,6 @@ public class Stores_API_Test {
                 .when()
                 .patch(endpoint + response.get("id"));
     }
-
 
     /**
      * PATCH /stores/{id} - 404

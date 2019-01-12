@@ -7,15 +7,12 @@ import static com.jayway.restassured.RestAssured.given;
 import com.jayway.restassured.RestAssured;
 import com.jayway.restassured.path.json.JsonPath;
 import org.testng.annotations.Test;
-
-
-
 import static org.hamcrest.Matchers.equalTo;
 
 /**
  * Created by A.Bartolome 11/01/2018
  *
- * SERVICES ENDPOINTS
+ * SERVICES ENDPOINT
  *
  */
 public class Services_API_Test {
@@ -40,7 +37,6 @@ public class Services_API_Test {
                 .when()
                 .get(endpoint);
     }
-
 
     /**
      * POST /services - 200
@@ -89,7 +85,6 @@ public class Services_API_Test {
                 .when()
                 .post(endpoint).jsonPath();
     }
-
 
     /**
      * DELETE /services/{id} - 200
@@ -146,7 +141,6 @@ public class Services_API_Test {
                 .delete(endpoint + TestData.NON_EXISTING_ID);
     }
 
-
     /**
      * GET /services/{id} - 200
      * Returns a Service based on an ID,
@@ -187,7 +181,6 @@ public class Services_API_Test {
                 .get(endpoint + TestData.NON_EXISTING_ID);
     }
 
-
     /**
      * PATCH /service/{id} - 200
      * Updates a service based on an ID
@@ -215,9 +208,6 @@ public class Services_API_Test {
                 .add("name",  TestData.TEST_NAME)
                 .build();
 
-
-
-
         // Update the service - name to different value
         given()
                 .contentType("application/json")
@@ -230,7 +220,6 @@ public class Services_API_Test {
                 .when()
                 .patch(endpoint + response.get("id"));
     }
-
 
     /**
      * PATCH /services/{id} - 404

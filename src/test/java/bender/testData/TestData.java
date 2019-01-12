@@ -1,5 +1,10 @@
 package bender.testData;
 
+/**
+ * Created by A.Bartolome 11/01/2018
+ *
+ * Test Data file: with URI, endpoints, existing test data, mock test data, etc...
+ */
 public class TestData {
 
     // BESTBUY PLAYGROUND URI
@@ -13,7 +18,7 @@ public class TestData {
     public static final String VERSION_ENDPOINT = "/version/";
     public static final String HEALTHCHECK_ENDPOINT = "/healthcheck/";
 
-    // FAKE TEST DATA
+    // MOCKING TEST DATA
     public static final String NON_EXISTING_ID = "1234567890";
     public static final String TEST_NAME = "Bender's thing";
 

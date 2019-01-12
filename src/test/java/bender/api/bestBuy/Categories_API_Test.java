@@ -13,7 +13,7 @@ import static org.hamcrest.Matchers.equalTo;
 /**
  * Created by A.Bartolome 11/01/2018
  *
- * CATEGORIES ENDPOINTS
+ * CATEGORIES ENDPOINT
  *
  */
 public class Categories_API_Test {
