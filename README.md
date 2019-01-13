@@ -18,7 +18,6 @@ Simple solution in Java using REST Assured tool for testing the Best Buy API Pla
 3. Maven: to have the command-line tool running: https://maven.apache.org/guides/getting-started/maven-in-five-minutes.html
 
 ## Running the tests
-A list of test cases proposed for automation can be found in: BestBuy_playground_API_tests_suite_description.txt
 
 Run 'mvn clean test' will run all the test successfully.
 ```
